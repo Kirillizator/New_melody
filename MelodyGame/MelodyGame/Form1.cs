@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace MelodyGame
 {
-    public partial class Form1 : Form
+    public partial class fMain : Form
     {
-        public Form1()
+        public fMain()
         {
             InitializeComponent();
+        }
+
+        private void fMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
